@@ -20,7 +20,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task1.V27
             Console.WriteLine("* Выполнил: Долгушин Вадим Алексеевич | ИИПб-23-3                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дан одномерный целочисленный массив на 10 элементов заполненный         *");
+            Console.WriteLine("* Дан одномерный целочисленный массив на 10 элементов, заполненный        *");
             Console.WriteLine("* значениями с клавиатуры в диапазоне от 1 до 9. Написать программу,      *");
             Console.WriteLine("* которая считает произведение четных элементов массива, введённых        *");
             Console.WriteLine("* пользователем.                                                          *");
@@ -47,7 +47,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task1.V27
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение нечётных элементов массива = " + ds.Calculate(array));
+            Console.WriteLine("Произведение чётных элементов массива = " + ds.Calculate(array));
             Console.ReadKey();
         }
     }
