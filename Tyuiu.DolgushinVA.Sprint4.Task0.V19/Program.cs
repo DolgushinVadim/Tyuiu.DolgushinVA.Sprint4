@@ -22,8 +22,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task0.V19
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан одномерный целочисленный массив на 10 элементов, заполненный        *");
             Console.WriteLine("* статическими значениями в диапазоне от 0 до 9. Написать программу,      *");
-            Console.WriteLine("* которая считает произведение нечетных элементов массива                 *");
-            Console.WriteLine("* {9, 5, 7, 4, 5, 3, 7, 8, 9, 1}                                          *");
+            Console.WriteLine("* которая считает произведение нечетных элементов массива.                *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -33,8 +32,10 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task0.V19
             Console.WriteLine("Массив: ");
             for (int i = 0; i <= array.Length - 1; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.Write(array[i] + "\t");
             }
+            Console.WriteLine();
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
