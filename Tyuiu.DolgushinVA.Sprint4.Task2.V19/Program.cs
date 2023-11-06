@@ -28,7 +28,9 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task2.V19
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int len = 14;
+            int len;
+            Console.Write("Введите количество элементов массива: ");
+            len = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[len];
 
             for (int i = 0; i <= array.Length - 1; i++)

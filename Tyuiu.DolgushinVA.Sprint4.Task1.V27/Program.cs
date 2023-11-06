@@ -28,12 +28,14 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task1.V27
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int len = 10;
+            int len;
+            Console.Write("Введите количество элементов массива: ");
+            len = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[len];
 
             for (int i = 0; i <= array.Length - 1; i++)
             {
-                Console.Write("Введите значение " + i + " элемент массива: ");
+                Console.Write("Введите значение " + i + " элемента массива: ");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Массив: ");

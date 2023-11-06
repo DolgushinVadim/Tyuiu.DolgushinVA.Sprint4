@@ -20,7 +20,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task1.V27.Lib
                 }
                 if ((array[i] < 1) || (array[i] > 9))
                 {
-                    throw new ArgumentException($"Введён некорректный элемент массива. Введённое значение {array[i]}");
+                    throw new ArgumentException($"Введён некорректный элемент массива. Значение не входит в диапозон. Введённое значение {array[i]}");
                 }
             }
             return p;
