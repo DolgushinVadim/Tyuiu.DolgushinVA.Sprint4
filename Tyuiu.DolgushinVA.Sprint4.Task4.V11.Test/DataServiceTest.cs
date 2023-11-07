@@ -8,7 +8,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task4.V11.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCalculate()
         {
             DataService ds = new DataService();
             int[,] matrix = new int[5, 5] { { 5, 7, 7, 8, 5 },

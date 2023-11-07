@@ -47,7 +47,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task4.V11
                 }
             }
 
-            Console.WriteLine("Массив: ");
+            Console.WriteLine("Исходный массив: ");
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
