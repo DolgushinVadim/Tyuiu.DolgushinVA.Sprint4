@@ -64,7 +64,7 @@ namespace Tyuiu.DolgushinVA.Sprint4.Task4.V11
 
             int res = ds.Calculate(matrix);
 
-            Console.WriteLine("Сумма нечётных элементов массива: " + res);
+            Console.WriteLine("Сумма нечётных элементов массива = " + res);
             Console.ReadKey();
         }
     }
